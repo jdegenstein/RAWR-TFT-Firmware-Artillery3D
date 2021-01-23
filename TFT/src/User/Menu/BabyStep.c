@@ -7,10 +7,10 @@ MENUITEMS babyStepItems = {
   LABEL_BABYSTEP,
 //icon                        label
  {
-  {ICON_INC,                  LABEL_INC},
+  {ICON_Z_INC,                  LABEL_Z_INC},
   {ICON_BACKGROUND,           LABEL_BACKGROUND},
   {ICON_BACKGROUND,           LABEL_BACKGROUND},
-  {ICON_DEC,                  LABEL_DEC},
+  {ICON_Z_DEC,                  LABEL_Z_DEC},
   {ICON_BACKGROUND,           LABEL_BACKGROUND},
   {ICON_001_MM,                LABEL_001_MM},
   {ICON_RESET_VALUE,          LABEL_RESET},

@@ -145,7 +145,7 @@ void loopFrontEndFILRunoutDetect(void)
 {
   if (!getPrintRunout()) return;
 
-  if (setPrintPause(true,false, false))
+  if (setPrintPause(true,false, true))
   {
     setPrintRunout(false);
     popupReminder(textSelect(LABEL_WARNING), textSelect(LABEL_FILAMENT_RUNOUT));
